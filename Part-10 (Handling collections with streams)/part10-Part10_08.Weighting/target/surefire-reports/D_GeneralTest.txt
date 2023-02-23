@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: D_GeneralTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in D_GeneralTest
+noLoopInSuitcase(D_GeneralTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: The file Suitcase.java should not have any loop constructs, but a while was found.
+	at D_GeneralTest.noLoopsInFile(D_GeneralTest.java:46)
+	at D_GeneralTest.noLoopInSuitcase(D_GeneralTest.java:19)
+
+noLoopInHold(D_GeneralTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: The file Hold.java should not have any loop constructs, but a while was found.
+	at D_GeneralTest.noLoopsInFile(D_GeneralTest.java:46)
+	at D_GeneralTest.noLoopInHold(D_GeneralTest.java:24)
+
